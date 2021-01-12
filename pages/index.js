@@ -1,22 +1,14 @@
-import { useState} from 'react';
+import Navbar from "./components/Navbar/Navbar";
 
-function Contador(){
-    const [contador, setContador] = useState(1);
 
-    function adicionarContador(){
-        setContador(contador+1);
-    }
-
-    return (
-        <div>
-            <div>{contador}</div>
-            <button onClick={adicionarContador}>Adicionar</button>
-        </div>
-    )
-}
 
 function Home(){
-    return <Contador />
+    return(
+        <div>
+            <Navbar />
+        </div>
+    )
+
 }
 
 export default Home
