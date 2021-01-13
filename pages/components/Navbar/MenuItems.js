@@ -25,3 +25,4 @@ export const MenuItems = [
         className: "nav-links-mobile"
     },
 ]
+export default MenuItems
