@@ -1,5 +1,32 @@
 import React, {Component} from 'react';
-import { MenuItems} from "./MenuItems";
+
+const MenuItems = [
+    {
+        title: "Home",
+        url: "#",
+        className: "nav-links"
+    },
+    {
+        title: "Services",
+        url: "#",
+        className: "nav-links"
+    },
+    {
+        title: "Products",
+        url: "#",
+        className: "nav-links"
+    },
+    {
+        title: "Contact Us",
+        url: "#",
+        className: "nav-links"
+    },
+    {
+        title: "Sign up",
+        url: "#",
+        className: "nav-links-mobile"
+    },
+]
 
 class Navbar extends Component{
     render() {
@@ -26,7 +53,5 @@ class Navbar extends Component{
         )
     }
 }
-
-
 
 export default Navbar
