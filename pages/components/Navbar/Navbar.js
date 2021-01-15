@@ -32,8 +32,9 @@ class Navbar extends Component{
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">Reacts</h1>
+                <h1 className="navbar-logo">Ragasil</h1>
                 <div className="menu-icon">
+                    <img src={"public/assets/images/logo-name.png"}/><img/>
 
                 </div>
                 <ul>
