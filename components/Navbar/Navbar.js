@@ -32,9 +32,10 @@ class Navbar extends Component{
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">Ragasil</h1>
+                <h1 className="navbar-logo">
+                    <img src="/logo_name.svg" alt="Ragasil" width="100" height="30"/>
+                </h1>
                 <div className="menu-icon">
-                    <img src={"public/assets/images/logo-name.png"}/><img/>
 
                 </div>
                 <ul>
