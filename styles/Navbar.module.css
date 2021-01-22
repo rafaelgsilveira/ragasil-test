@@ -2,7 +2,6 @@
 
 .navbarItems{
     background: #044071;
-    color: #fafafa;
     font-family: Play;
     height: 80px;
     display: flex;
@@ -17,12 +16,13 @@
     justify-self: start;
     margin-left: 20px;
     margin-right: 50px;
+    margin-top: 30px;
 }
 
 .navMenu{
     display: grid;
     grid-template-columns: repeat(5,auto);
-    grid-gap: 10px;
+    grid-gap: 20px;
     list-style: none;
     text-align: center;
     width: fit-content;
@@ -31,3 +31,20 @@
 
 }
 
+.menuIcon{
+    color: #fafafa;
+    display: none;
+}
+.menuIcon:hover{
+    color: #a2c5e0;
+}
+
+.navLinks{
+    color: #fafafa;
+}
+.navLinks:hover{
+    text-decoration: underline;
+}
+.navLinks:active{
+    color: #c9c8c5;
+}

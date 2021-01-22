@@ -11,6 +11,7 @@ const MenuItems = [
         title: "Home",
         url: "#",
         className: "nav-links"
+
     },
     {
         title: "Serviços",
@@ -47,15 +48,15 @@ class Navbar extends Component{
                 <h1 className={styles.navbarLogo}>
                     <img src="/logo_name_contorno.png" alt="Ragasil" width="200" height="40"/>
                 </h1>
-                <div className='menu-icon' onClick={this.handleClick}>
+                <div className={styles.menuIcon} onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}> </i>
 
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : styles.navMenu}>
                     {MenuItems.map((item, index)=>{
                         return(
-                            <li key={index}>
-                                <a  className={item.className} href={item.url}>
+                            <li key={index} className={styles.navLinks}>
+                                <a  className={item.className}  href={item.url}>
                                     {item.title}
                                 </a>
                             </li>
