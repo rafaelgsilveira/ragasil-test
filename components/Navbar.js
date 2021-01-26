@@ -9,7 +9,7 @@ import '@fortawesome/fontawesome-free/js/brands';
 const MenuItems = [
     {
         title: "Home",
-        url: "#",
+        url: "home",
         className: "nav-links"
 
     },
@@ -25,7 +25,7 @@ const MenuItems = [
     },
     {
         title: "Contato",
-        url: "#",
+        url: "contact",
         className: "nav-links"
     },
     {
@@ -46,8 +46,10 @@ class Navbar extends Component{
         return(
             <nav className={styles.navbarItems}>
                 <h1 className={styles.navbarLogo}>
+                    <a href='home'>
                     <img src="/logo_name_contorno.png" alt="Ragasil" width="200" height="40"/>
-                </h1>
+                    </a>
+                    </h1>
                 <div className={styles.menuIcon} onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}> </i>
 
