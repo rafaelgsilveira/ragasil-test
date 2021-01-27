@@ -1,3 +1,5 @@
+// redirects to Home function on index.js
+
 import Principal from './index.js'
 import Home from "./index.js";
 
