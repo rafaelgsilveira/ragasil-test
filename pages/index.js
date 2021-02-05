@@ -1,23 +1,30 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import Background from "../components/background";
+
 
 
 export default function Home() {
   return (
 
-  <div className={styles.container}>
-    
+<div>
+  <Background></Background>
 
+
+  <div className={styles.container}>
 
     <Head>
       <title>RAGASIL</title>
       <link rel="icon" href="/r_icon.ico" />
     </Head>
 
-      <main className={styles.main}>
-        
+
+    <main className={styles.main}>
+
+
         <h1 className={styles.title}>
+
           Soluções em Tecnologia
         </h1>
 
@@ -63,6 +70,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
-
+</div>
   )
 }
