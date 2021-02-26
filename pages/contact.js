@@ -3,22 +3,46 @@ import styles from "../styles/Home.module.css"
 
 function Contact() {
     return (
-        <div className="container">
-            <div>
-                <h2>Entre em Contato</h2>
-            </div>
-            <div className={styles.grid}>
-                <div className="column">
-                    <img src="/old_phone.jpg" alt="Phone" width="600" height="400" />
+        <div className={styles.main}>
+            <h1 className={styles.contactTitle}>
 
-                </div>
-                <div className="column">
-                    <ul>
-                        <li>Coffee</li>
-                        <li>Tea</li>
+                Aguardamos o seu contato
+            </h1>
+
+            <div className={styles.grid}>
+
+                <a href="https://goo.gl/maps/4CtQmM5ruUcz2Saq7" className={styles.card}>
+                    <img src="/map.png" alt="Map" width="750" height="400" />
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=5511992436608" className={styles.card}>
+                    <ul className={styles.whatsappList}>
+                        <li >Whats</li>
+
+                    </ul>
+                </a>
+
+
+                <a href="mailto: {contato@ragasil.com.br}" className={styles.card}>
+                    <ul className={styles.emailList}>
+                        <li >Email</li>
+
+                    </ul>
+                </a>
+
+
+                <div className={styles.card2}>
+                    <ul className={styles.list}>
+
                         <li>Milk</li>
                     </ul>
+                </div>
+                <div className={styles.card2}>
+                    <ul className={styles.list}>
 
+                        <li>Suggar</li>
+
+                    </ul>
                 </div>
             </div>
         </div>
