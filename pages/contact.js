@@ -11,8 +11,8 @@ function Contact() {
 
             <div className={styles.grid}>
 
-                <a href="https://goo.gl/maps/4CtQmM5ruUcz2Saq7" className={styles.card}>
-                    <img src="/map.png" alt="Map" width="750" height="400" />
+                <a href="https://goo.gl/maps/sHmoip3uzqc9f84V8" className={styles.card}>
+                    <img src="/map.png" alt="Map" width="750" height="500" />
                 </a>
 
                 <a href="https://api.whatsapp.com/send?phone=5511992436608" className={styles.card}>
